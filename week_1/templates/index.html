@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Image Classifier</title>
+    <!-- Load a working version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Simple Image Classifier!</h1>
+    <br>
+    <!-- simple space where the results are inserted -->
+    <span id="text"></span>
+    <br>
+    <!-- could have been better formated but for the sample -->
+    <input type='file'/>
+    <br>
+    <img id="img" />
+    <br>
+    <!-- could have used ready() but for the sample -->
+    <script src="static/js/index.js"></script>
+  </body>
+</html>
