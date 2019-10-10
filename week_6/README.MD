@@ -1,1 +1,1 @@
-Homework week 6 Fashion MNIST GAN
+Simple GAN using FashionMNIST dataset
